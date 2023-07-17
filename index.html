@@ -4,41 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Figma Land</title>
-    <link rel="shortcut icon" href="img/figmaland-logo.jpg" type="image/x-icon">
+    <title>7 Studio</title>
+    <link rel="shortcut icon" href="img/site-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <div style="background-image: url(img/backimage.jpg);">
-        <header>
-        <nav>
-            <ul style="color: white;">
-                <li><a class="Home" href="#">Home</a></li>
-                <li><a class="Product" href="#">Product</a></li>
-                <li><a class="Pricing" href="#">Pricing</a></li>
-                <li><a class="About" href="#">About</a></li>
-                <li><a class="Contact" href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <div><a href="#"> <img src="img/figmaland-logo.jpg" alt="Logo"></a></div>  
-        <ul style="color: white">
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <button class="close" style="background-color: rgb(212, 212, 212);">✕</button>
-        <nav>
-            <ul style="color: white">
-                <li><a href="https://twitter.com/"> <img src="img/twtr.png" alt="twitter"></a></li>
-                <li><a href="https://facebook.com/"> <img src="img/fcbk.png" alt="facebook"></a></li>
-                <li><a href="https://linkedin.com/"> <img src="img/lnkdn.png" alt="linkedin"></a></li>
-            </ul>   
-        </nav>                  
-            <div class="headerContent" style="color: white;">
-                <h1>The best products start with Figma</h1>
-                <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-                <a href="#"><button class="button-tff">Try for free</button></a>
-            </div>
-        </header>
-    </div>
+    <header>
+        <nav data-include="partials/header.partial.html"></nav>
+    </header>
+
+    <main></main>
+    
+    <footer></footer>
+    <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
 </body>
 </html>
