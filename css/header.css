@@ -1,23 +1,70 @@
+.wrapper-header {
+    background-image: url(../img/cover-head.png);
+    background-position: center;
+    background-size: cover;
+}
+
 .header-items {
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 106px;
-    padding: 30px 40px;
-    
+    padding: 30px 0px;
+
 }
 
 .header-items__menu-list {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .header-items__menu-list li {
     list-style-type: none;
-    margin: 10px;
-    
+}
+
+.header-items__menu-list a {
+    color: var(--main-color-first);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
 }
 
 .header-items__logo {
     margin: 0 15px;
+}
+
+.header-items__socialbar {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* ========================header-bottom==================================== */
+.header-bottom {
+    min-height: 705px;
+}
+
+.viev-portfolio__content {
+    max-width: 500px;
+    padding-top: 150px;
+}
+
+.viev-portfolio__content-title {
+    color: var(--main-color-first);
+    font-family: Work Sans;
+    font-size: 105px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120.75px;
+    letter-spacing: 1.575px;
+}
+
+.divider-component {
+    min-width: 43px;
+    min-height: 4px;
+    background: var(--main-color-forth);
 }
